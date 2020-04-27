@@ -1,0 +1,184 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* container */
+
+.fluid-container{
+  padding: 5% 15% 10%;
+}
+
+/* Section */
+.coloured-section{
+  background-color: #ff4c68;
+  color:#fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Title */
+
+#title{
+  text-align: left;
+}
+
+/* navigation */
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.menus{
+font-size: 1.2rem;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+/* header */
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.headerimage{
+  width:60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.title-text{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.downloadbutton{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* features */
+#features{
+  padding: 15% 7%;
+  position: relative;
+  z-index: 1;
+}
+
+.features{
+  padding: 0 4rem;
+}
+
+.fonticon{
+  font-size: 3rem;
+  color: #ef8172;
+  padding: 15px 0;
+}
+
+.fonticon:hover{
+  color:#ff4c68;
+}
+
+.featurestitle{
+  font-size: 1.4rem;
+}
+
+.featurediscription{
+  color: #8f8f8f;
+}
+
+/* testimonial */
+
+.carousel-item{
+  padding: 15% 8% 10%;
+}
+
+.testimonialtext{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.testimonialimage{
+  width:10%;
+  margin: 10px 15px 10px;
+  border-radius: 100%;
+}
+
+#press{
+  padding: 0 7% 5%;
+}
+
+.press-image{
+  width: 20%;
+  margin: 0 15px;
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 10% 10% 7%;
+}
+
+.pricing-title{
+  font-weight: bold;
+}
+
+.card{
+  margin: 3% 2%;
+}
+
+.card-body p{
+  line-height: 0.5;
+}
+
+.price{
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+.price-button{
+  margin-top: 30px;
+}
+
+@media (max-width:1200px) {
+  #title{
+    text-align: center;
+  }
+
+  .headerimage{
+    position:static;
+    transform: rotate(0);
+  }
+
+}
+
+/* CTA */
+
+#cta{
+  padding:8% 15% 8%;
+}
+
+.cta-text{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Footer */
+#footer{
+  padding: 3%;
+  color: #8f8f8f;
+  line-height: 3;
+}
+
+.footericon{
+  color:#000;
+  text-decoration: none;
+  margin-left: 2%;
+}
